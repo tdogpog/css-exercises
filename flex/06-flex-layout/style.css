@@ -59,7 +59,7 @@ ul{
   /* this is how you can push the links at the bottom down */
   /* with text-align:center you center the content in this div */
   /* but you need to expand this div to push the bottom links down  */
-  display: flex;
+  display: flex;  
   flex-direction: column;
   justify-content: center;
   align-items: center;
