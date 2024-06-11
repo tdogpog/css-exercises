@@ -5,6 +5,8 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
 }
 
 img {
@@ -23,4 +25,49 @@ input {
   border-radius: 16px;
   padding: 8px 24px;
   width: 400px;
+}
+
+ul{
+  list-style-type: none;
+}
+
+.header{
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer{
+  display: flex;
+  justify-content: space-between;
+}
+.left-links{
+  display: flex;
+  gap: 20px;
+  list-style-type: none;
+  padding-left: 20px;
+}
+
+.right-links{
+  display: flex;
+  gap: 20px;
+  list-style-type: none;
+  padding-right: 20px;
+}
+
+
+.content{
+  /* this is how you can push the links at the bottom down */
+  /* with text-align:center you center the content in this div */
+  /* but you need to expand this div to push the bottom links down  */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap:16px;
+  flex:1;
+}
+
+
+a{
+  text-decoration: none;
 }
